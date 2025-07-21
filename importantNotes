@@ -1,0 +1,5 @@
+.enumerated() is a method in Swift that transforms the marineFord 
+array into a sequence of (index, value) pairs. Essentially, 
+it adds an index to each element in the array. For example, 
+marineFord.enumerated() would produce something like:
+ [(0, "Garp"), (1, "Kizaru"), (2, "Lava man")].
