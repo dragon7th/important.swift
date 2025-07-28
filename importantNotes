@@ -3,3 +3,33 @@ array into a sequence of (index, value) pairs. Essentially,
 it adds an index to each element in the array. For example, 
 marineFord.enumerated() would produce something like:
  [(0, "Garp"), (1, "Kizaru"), (2, "Lava man")].
+
+struct Singer {
+    var name = "The Pantura's"
+}
+
+var singer1 = Singer()
+var singer2 = singer1
+
+singer2.name = "Feel Koplo"
+print(singer1.name)
+print(singer2.name)
+
+// it will print 
+The Pantura's
+Feel Koplo
+
+class Singer {
+    var name = "The Pantura's"
+}
+
+var singer1 = Singer()
+var singer2 = singer1
+
+singer2.name = "Feel Koplo"
+print(singer1.name)
+print(singer2.name)
+
+// it will print
+Feel Koplo
+Feel Koplo
